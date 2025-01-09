@@ -13,7 +13,7 @@ st.header("Create Job")
 create_title = st.text_input("Job Title", key="create_title")
 create_company = st.text_input("Company", key="create_company")
 create_location = st.text_input("Location", key="create_location")
-create_salary = st.number_input("Salary", min_value=0.0, key="create_title", format="%.2f")
+create_salary = st.number_input("Salary", min_value=0.0, key="create_salary", format="%.2f")
 
 if st.button("Create Job"):
     job = {
